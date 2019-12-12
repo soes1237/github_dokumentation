@@ -1,0 +1,65 @@
+img {
+    width: 100%;
+
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#om .col,
+#gruppemedlemmer .col,
+#linkogpassword .col,
+#malgruppebeskrivelse .col,
+#moodboard .col,
+#designdokumentation .col,
+#wireframe .col,
+#layoutdiagram .col,
+#test .col,
+#trelloboard .col,
+#fotos .col,
+#styletile .col,
+#storyboard .col,
+    {
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+
+#om {}
+
+#gruppemedlemmer {}
+
+#linkogpassword {}
+
+#malgruppebeskrivelse {}
+
+#moodboard img {
+    width: 50%;
+}
+
+#designdokumentation {}
+
+#wireframe img {
+    width: 20%;
+}
+
+#layoutdiagram img {
+    width: 40%;
+}
+
+#test {}
+
+#trelloboard {}
+
+#fotos {}
+
+#styletile {}
+
+#storyboard img {
+    width: 50%;
+}

@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 img {
     width: 100%;
 
@@ -6,27 +10,64 @@ img {
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+}
+
+/***************Menu*************/
+
+/* unvisited link */
+header nav a:link {
+    color: #ffe9ad;
+    text-shadow: 0px 1px black;
+}
+
+/* visited link */
+header nav a:visited {
+    color: #faf2da;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: #ffb076;
+}
+
+/* selected link */
+header nav a:active {
+    color: #ff7056;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center margin: 1rem;
 
 }
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Monda', sans-serif;
+    font-size: 1.2rem;
+    /*    margin-right: 0.5rem;*/
+    padding: 0.5rem;
+
+}
+
+/***************Menu slut*************/
 
 #om .col,
 #gruppemedlemmer .col,
 #linkogpassword .col,
-#malgruppebeskrivelse .col,
-#moodboard .col,
-#designdokumentation .col,
-#wireframe .col,
-#layoutdiagram .col,
-#test .col,
-#trelloboard .col,
 #fotos .col,
 #styletile .col,
-#storyboard .col,
     {
 
     flex-grow: 1;
     flex-basis: 300px;
-
 }
 
 
@@ -34,32 +75,8 @@ img {
 
 #gruppemedlemmer {}
 
-#linkogpassword {}
-
-#malgruppebeskrivelse {}
-
-#moodboard img {
-    width: 50%;
-}
-
-#designdokumentation {}
-
-#wireframe img {
-    width: 20%;
-}
-
-#layoutdiagram img {
-    width: 40%;
-}
-
-#test {}
-
-#trelloboard {}
-
-#fotos {}
+#analyse {}
 
 #styletile {}
 
-#storyboard img {
-    width: 50%;
-}
+#fotos {}

@@ -4,12 +4,6 @@ body {
 
 img {
     width: 100%;
-
-}
-
-.sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /***************Menu*************/
@@ -126,10 +120,19 @@ a {
     flex-wrap: wrap;
     margin: 0.5;
     background-color: #fff8e7;
+
 }
 
-.col_analyse {
+#analyse .col_analyse {
+    flex-direction: row;
     padding: 1rem;
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+#analyse .col {
+    display: flex;
+    flex-wrap: wrap;
     flex-grow: 1;
     flex-basis: 500px;
 }

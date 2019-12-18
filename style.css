@@ -173,6 +173,11 @@ a {
     flex-basis: 600px;
 }
 
+.font {
+    border: solid;
+    margin-left: 1rem;
+}
+
 #documentation .col {
     display: flex;
     flex-wrap: wrap;
